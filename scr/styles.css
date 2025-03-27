@@ -14,7 +14,16 @@ header{
 }
 h1{
     font-size: 90px;
+    font-weight: bold;
+    gap: 10px;
     color: white;
+    
+}
+.line{
+    width: 240px;
+    height: 5px;
+    background-color: white;
+    display: inline-block;
 }
 h2{
     font-size: 30px;
@@ -124,7 +133,7 @@ p{
 }
 .page-image img{
     margin: 0 auto;
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     display: block;
     justify-content: flex-end;
 }
@@ -158,6 +167,9 @@ p{
     header h2 {
         font-size: 12px;
 
+    }
+    .line{
+        width: 120px;
     }
 }
 
